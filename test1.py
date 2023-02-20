@@ -1,3 +1,1 @@
-print('branch 2')
-
-print('hello world')
+print('branch1')
