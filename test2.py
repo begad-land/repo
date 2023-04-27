@@ -46,7 +46,7 @@ class Game:
 
     def __init__(self,questions,choices,answers,clues) -> None: 
   
-#here you're creating an instance or a copy of the object by passing the other classes as arguments to be created in the main class'(Game) init method 
+#here you're creating an instance or a copy of the object by passing the other classes as arguments to be created in the main class'(Game) init method and passing the mini class' arguments while passing them to the main class
 
         self.questions=questions
         self.choices=choices
