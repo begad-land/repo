@@ -3,6 +3,7 @@ import random
 class Question:
 
     def __init__(self,Qs,Qs_num) -> None:
+#the object's attributes are given here
         self.Q=Qs
         self.Qs_num=Qs_num
     
@@ -15,6 +16,7 @@ class Question:
 class Answers:
 
     def __init__(self,As) -> None:
+#the object's attributes are given here
         self.As=As
     
     def store_answers(self):
@@ -23,7 +25,8 @@ class Answers:
 class Choices:
     
     def __init__(self,choices) -> None:
-        self.choices=choices
+
+#the object's attributes are given here                           self.choices=choices
 
     def display_choices(self):
         for choice in self.choices:
@@ -32,7 +35,8 @@ class Choices:
 class Clues:
     
     def __init__(self,clues) -> None:
-        self.clues=clues
+
+#the object's attributes are given here        self.clues=clues
 
     def store_clues(self):
         #you can save this in a variable outside the scope of the classes
@@ -40,7 +44,10 @@ class Clues:
 
 class Game:
 
-    def __init__(self,questions,choices,answers,clues) -> None:   
+    def __init__(self,questions,choices,answers,clues) -> None: 
+  
+#here you're creating an instance or a copy of the object by passing the other classes as arguments to be created in the main class'(Game) init method 
+
         self.questions=questions
         self.choices=choices
         self.answers=answers
